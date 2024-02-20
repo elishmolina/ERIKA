@@ -1,0 +1,11 @@
+int x = Integer.parseInt(jTextField1.getText());
+        int y = Integer.parseInt(jTextField2.getText());
+        int z = x + y;
+        int a = x - y;
+        int b = x * y;
+        int c = x / y;
+        
+        jLabel1.setText("The sum of 2 numbers is :" + String.valueOf(z));
+        jLabel2.setText("The diff of 2 numbers is :" + String.valueOf(a));
+        jLabel3.setText("The prod of 2 numbers is :" + String.valueOf(b));
+        jLabel4.setText("The quot of 2 numbers is :" + String.valueOf(c));
